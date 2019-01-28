@@ -1,0 +1,733 @@
+
+/******** GÉNÉRAUX ********/
+#Accueil{
+    overflow-x: hidden;
+    background-color: #fff;
+}
+html, body {
+
+      margin: 0;
+      padding: 0;
+}
+#Contenu{
+    overflow-x: hidden;
+    background-color: #fff;
+    padding: 0 0 80px 0;
+}
+#Apropos{
+    background-color: #fff;
+    padding: 0 15px 80px 15px;
+}
+*{
+
+  margin: 0;
+  padding: 0;
+}
+* {
+
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+h1{
+    padding: 50px 0;
+}
+#Contenu h1{
+    padding: 150px 0px 30px 0px;
+}
+#Apropos h1{
+    padding: 200px 0px 30px 0px;
+}
+h2 {
+    padding: 50px 0 30px 0!important;
+}
+.btn:focus{
+	box-shadow:none;
+}
+a:focus, input:focus, button:focus{
+	box-shadow:none;
+	outline:none;
+}
+label  {
+    font-size: 1.2em;
+}
+body{
+    min-height: 100vh;
+}
+div#content{
+    min-height: 70vh;
+    width: 100%;
+}
+.container-fluid{
+    padding: 0px;
+}
+/**************** FIN GÉNÉRAUX ****************/
+
+
+
+/**************** MASTHEAD ****************/
+.masthead{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0;
+    text-align: center;
+    background-image: url(http://reseaurhplus.com/beta/asset/img/site/header.png);
+    -webkit-background-image: url(http://reseaurhplus.com/beta/asset/img/site/header.png);
+    -webkit-background-position: center center;
+    -webkit-background-size: cover;
+    overflow-x: visible;
+
+}
+.masthead .intro-body{
+    display: table-cell;
+    vertical-align: middle;
+}
+.btn-arrow i{
+    color:#fff;
+    font-size: 50px;
+    width: 60px;
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-bottom:10px;
+}
+.btn-arrow:hover{
+
+}
+.masthead h1{
+  color:#fff;
+}
+/**************** FIN MASTHEAD ****************/
+
+
+
+/**************** MAIN NAVIGATION ****************/
+#mainNav .navbar-toggler, #secondNav .navbar-toggler{
+    font-size: 14px;
+    padding:11px;
+    color: #fff;
+    background-color: #89dc65;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; 
+    border: 1px solid #fff;
+}
+#mainNav .nav-link{
+    color:#fff;
+}
+#mainNav .navbar-nav .nav-item a{
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color:#fff;
+
+}
+#mainNav .navbar-nav .nav-item a:hover{
+    outline: none;
+    background-color: transparent;   
+}
+#mainNav{
+    padding:0px 16px 0px 0px;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+    display: block;
+}
+.navbar-shrink{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: rgb(47,51,56) !important; 
+    -webkit-box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+    -moz-box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+    box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+
+}
+#mainNav .container-fluid{
+    padding:0;
+}
+#mainNav img{
+    width:60%;
+}
+#mainNav .navbar-brand img{
+    padding:0;
+}
+#mainNav .navbar-brand{
+    padding: 0;
+}
+/**************** FIN MAIN NAVIGATION ****************/
+
+
+
+/**************** SECOND NAVIGATION ****************/
+#secondNav .navbar-nav .nav-item a{
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color:#fff;
+
+}
+#secondNav .navbar-nav .nav-item a:hover{
+    outline: none;
+    background-color: transparent;   
+}
+#secondNav{
+    padding:0px 16px 0px 0px;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background-color: rgb(47,51,56);
+    -webkit-box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+    -moz-box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+    box-shadow: 0px 9px 66px -24px rgba(0,0,0,0.94);
+}
+#secondNav .navbar-shrink{
+
+    background: rgb(47,51,56) !important; 
+}
+#secondNav .container-fluid{
+    padding:0;
+}
+#secondNav img{
+    width:150px;
+}
+#secondNav .navbar-brand img{
+    padding:0;
+}
+#secondNav .navbar-brand{
+    padding: 0;
+}
+/**************** FIN SECOND NAV NAVIGATION ****************/
+
+
+/**************** MENU SECONDAIRE ****************/
+#menuSecondaire{
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    background-color: #89dc65 !important;
+
+}
+#menuSecondaire .nav-item{
+    text-align: center;
+    color: #fff;
+}
+/**************** FIN MENU SECONDAIRE ****************/
+
+
+/**************** PAGE ACCUEIL ****************/
+#Accueil h1{
+    padding: 70px 0 50px 0;
+}
+#Accueil .evenement{
+    width: 500px;
+    height: 300px;
+}
+#Accueil .calendrier{
+    background-color: rgb(47,51,56);
+}
+.ligne-verticale hr{
+    border:none;
+    border-left:1px solid #89dc65;
+    height:500px;
+    width:1px;
+    margin: 20px 0 80px 0;     
+}
+.video{
+    padding: 0 0 30px 0;
+}
+table tr th{
+    color: #89dc65;
+}
+table thead p{
+
+}
+table caption{
+    caption-side: top;
+    border: 2px solid #89dc65;
+    border-radius: 30px;
+    background-color: #89dc65;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+.act_prevu{
+    color: #fff;
+    font-weight: bold;
+    background-color:#89dc65;
+}
+/**************** FIN PAGE ACCUEIL ****************/
+
+
+
+/**************** PAGE ACTIVITÉ ****************/
+.titre_activite{
+    padding: 200px 0px 0px 0px!important;
+    color: #89dc65;
+}
+.activite{
+    padding: 40px 0 40px 0;
+}
+/**************** FIN PAGE ACTIVITÉ ****************/
+
+
+
+/**************** FORMULAIRE ****************/
+input.form-control{
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #89dc65!important;
+  outline: 0;
+  box-shadow: none!important;
+}
+.btn-formulaire {
+    margin: 0 11px 30px 11px;
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+    background-color: #89dc65;
+    color: #fff;
+    border: none;
+    margin: 5px;
+}
+.btn-formulaire:hover {
+  color: #fff;
+  background-color: #85ce63;
+}
+/****************FIN FORMULAIRE****************/
+
+
+
+/**************** FOOTER ****************/
+footer{
+    width: 100%;
+    background-color: rgb(47,51,56);
+}
+div#content_footer{
+    min-height: 10vh;
+    width: 100%;
+}
+.logo_rh_blanc{
+    width: 216px;
+    height: auto;
+    padding: 11px 0 0 5px;
+}
+.img_link{
+    padding: 0 11px 30px 11px;
+}
+.second_nav .nav-link{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    padding:11px;
+    color: #fff;
+    opacity: 0.5;
+}
+#infolettre{
+    margin: 0 11px 11px 11px!important;
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+}
+#btn_infolettre {
+    margin: 0 11px 11px 11px;
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+    background-color: #89dc65;
+    border: none;
+    color: #fff;
+}
+#btn_infolettre:hover {
+    color: #fff;
+    background-color: #85ce63;
+}
+footer h3{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif; 
+    color: #fff;
+    padding: 11px 11px 0 11px;
+}
+.row_footer{
+    padding: 50px 0 50px 0;
+    border-bottom: 1px solid #89dc65; 
+}
+.footer_section{
+    border-left: 1px solid #89dc65;
+}
+.copyright{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    padding: 11px 0 11px 0;
+}
+/**************** FIN FOOTER ****************/
+
+
+
+/**************** FOOTER RESPONSIVE ****************/
+.logo_rh_blanc_responsive{
+    width: 130px;
+    height: auto;
+    padding: 0 0 30px 0;
+}
+.img_link_responsive{
+    width: 70px;
+    padding: 0 11px 0 11px;
+}
+.second_nav_responsive .nav-link{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    padding:5px;
+    color: #89dc65;
+}
+.nav_footer_responsive{
+    padding: 30px 0 30px 0;
+}
+#btn_infolettre_responsive{
+    margin: 20px 11px 30px 11px;
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+    background-color: #89dc65;
+    color: #fff;
+}
+.form-control{
+    margin: 20px 0 0 0 !important;
+}
+h3.h3_infolettre_responsive{
+    font-size: 1.2em; 
+    padding: 30px 0 0 0;
+}
+.footer_section_responsive{
+    text-align: center;
+    border-bottom: 1px solid #bbc6c3;
+}
+.footer_section_responsive_reseau_sociaux{
+    text-align: center;
+    border: none;
+}
+h3.media_sociaux {
+    padding: 30px 0 0 0;
+    font-size: 1.2em;
+}
+/**************** FIN FOOTER RESPONSIVE ****************/
+
+
+
+/**************** MODAL ****************/
+.modal-content{
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+}
+.btn-modal{
+    -moz-border-radius: 25px 25px;
+    -webkit-border-radius: 25px 25px;
+    border-radius: 25px 25px;
+    background-color: #89dc65;
+    color: #fff;
+}
+.btn-modal:hover{
+    background-color: #85ce63;
+    color: #fff;
+}
+h2#exampleModalLabel.modal-title {
+    color: #89dc65;
+}
+#exampleModal{
+    text-align: center;
+}
+.lien_abonnement{
+    color: #2f3338;
+    padding: 0 0 20px 0;
+}
+.lien_abonnement:hover{
+    color: #000;
+    padding: 0 0 20px 0;
+}
+/**************** FIN MODAL ****************/
+
+
+
+/**************** CAROUSEL SLICK ****************/
+.fond_slider .slick-prev:before, .fond_slider .slick-next:before {
+    color: #fff!important;
+}
+.slick-prev:before, .slick-next:before {
+    color: #89dc65!important;
+}
+#Accueil .slider {
+    width: 50%;
+    margin: 5px auto;
+}
+.slick-slide {
+    margin: 0px 20px;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+.slick-current {
+    opacity: 1;
+}
+/**************** FIN CAROUSEL SLICK ****************/
+
+
+
+/**************** SPAN COULEUR ****************/
+span.vert{
+    color: #89dc65;
+}
+span.blanc{
+    color: #fff;
+}
+span.rouge{
+    color: #ff0000;
+}
+/**************** FIN SPAN COULEUR ****************/
+
+
+/*Section pour les effets qui sont seulement activé dans une certaine grandeur*/
+
+/*Desktop*/
+@media(min-width:992px){
+
+    .nav-link.active{
+        outline: none;
+        background-color: rgba(255,255,255,0.3);
+    }
+    .nav-link.active:hover{
+        color: #fff;
+    }
+
+    .nav-link{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+    }
+    .nav-link::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+    }
+    .nav-link:hover::after{
+        width:100%;
+
+    }
+}
+
+
+@media(max-width:992px){
+    #mainNav .navbar-brand{
+        content: url("http://reseaurhplus.com/beta/asset/img/site/logo_nav_mdv2.png");
+        width: 150px;
+    }
+    #mainNav{
+        background-color: rgb(47,51,56);
+    }
+
+
+
+
+/*Tablette téléphone*/
+@media(max-width:768px){
+/*FORMULAIRE MEMBRE*/
+    .form_membre {
+        text-align: center;
+    }
+    .form_membre input{
+        text-align: center;
+    } 
+    iframe{
+        width: 600px;
+    }
+    .iframe-lg, .slider{
+        display: none !important;
+    }
+    .iframe-md{
+        display: block !important;
+        margin:25px auto 25px auto;
+    }
+    #Accueil h1{
+        padding-top: 50px;
+    }
+
+/*FIN FORMULAIRE MEMBRE*/
+
+/*ACTIVITÉ*/
+    .activite h3{
+        text-align: center;
+    }
+/*FIN ACTIVITÉ*/    
+    iframe{
+        width: 360px;
+        height: 202.5px;
+    }
+
+
+    .evenement p{
+        text-align: center !important;
+    }
+}
+
+
+/*TÉLÉPHONE*/
+@media(max-width:576px){
+    /*GLOBAL*/
+    #Accueil h1{
+        font-size: 1.5em;
+        padding: 30px 0 0 0!important;
+    }
+    h3{
+        font-size: 1.2em;
+        padding: 0 15px 0 15px;
+    }
+    p{
+        font-size: 0.8em;
+        padding: 0 15px 0 15px;
+    }
+    /*FIN GLOBAL*/
+
+    .activite{
+        padding: 20px 0 20px 0;
+    }
+
+    .fond_slider{
+        height: 50px;
+    }
+    .carousel_partenaire{
+         height: 50px;
+    }
+    .slick-track{
+        height: 50px!important;
+    }
+
+    .btn-modal{
+        font-size: 1em;
+    }
+
+}    
+
+    /*Tablette téléphone*/
+    @media(max-width:768px){
+                #mainNav{
+            background: transparent;
+        }  
+        .navbar-brand{
+            display: none;
+        }
+        .navbar-toggler{
+            margin: 15px 0px 15px 85%;
+        }
+        /*FORMULAIRE MEMBRE*/
+        .form_membre {
+            text-align: center;
+        }
+        .form_membre input{
+            text-align: center;
+        } 
+        .champs_obligatoire label
+        {
+        }
+        iframe{
+            width: 600px;
+        }
+        /*FIN FORMULAIRE MEMBRE*/
+
+        /*ACTIVITÉ*/
+        .activite h3{
+            text-align: center;
+        }
+        /*FIN ACTIVITÉ*/    
+        iframe{
+            width: 360px;
+            height: 202.5px;
+        }
+        .table-responsive-sm{
+            margin: 0 0 80px 0;
+        }
+    }
+
+    @media(max-width:576px){
+
+        /*GLOBAL*/
+        h1{
+            font-size: 1.5em;
+            padding: 150px 0 0 0!important;
+        }
+        h2 {
+            font-size: 1.3em;
+            padding: 0px 0 10px 0;
+        }
+        h3{
+            font-size: 1.2em;
+            padding: 0 15px 0 15px;
+        }
+        p{
+            font-size: 0.8em;
+            padding: 0 15px 0 15px;
+        }
+        /*FIN GLOBAL*/
+
+        /*TABLEAU CALENDRIER*/
+        .table th{
+            padding: 0!important;
+        }
+        .table td{
+            padding: .50rem;
+        }
+        /*FIN TABLEAU CALENDRIER*/
+
+        /*MODAL*/
+        h2#exampleModalLabel.modal-title {
+            padding: 0!important;
+        }
+        /*FIN MODAL*/
+
+        h1.text-drop{
+            padding: 30px 0 0 0!important;
+        }
+        .btn-arrow i{
+            margin-top: 10px;
+        }
+
+        .masthead{
+            padding: 100px 0 0 0;
+        }
+
+        /*PAGE ACTIVITE*/
+        .activite{
+            padding: 20px 0 20px 0;
+            margin: 0 15px 0 15px;
+        }
+        /*FIN PAGE ACTIVITE*/
+
+        /*CAROUSEL PARTENAIRE*/
+        .fond_slider{
+            height: 50px;
+        }
+        .carousel_partenaire{
+           height: 50px;
+       }
+       .slick-track{
+        height: 50px !important;
+    }
+
+    /*FIN CAROUSEL PARTENAIRE*/
+
+}  
+
+

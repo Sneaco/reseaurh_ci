@@ -1,0 +1,118 @@
+/************** GÉNÉRAL **************/
+* {
+	font-size: 0.98em;
+}
+figure {
+	width: 100%;
+}
+/*********** FIN GÉNÉRAL *************/
+
+/********* CLASSES SB ADMIN **********/
+.navbar-nav .nav-item.active .nav-link, .sidebar .nav-item .nav-link:hover {
+	color: #2f3338;
+}
+.sidebar {
+	background-color: #75bf56;
+}
+.sidebar .nav-item .nav-link {
+	color: rgba(47, 51, 56, 0.5);
+}
+.sidebar .nav-item .nav-link:hover, .sidebar .nav-item .nav-link:active {
+	background-color: #E3F6D8;
+}
+.breadcrumb {
+	background-color: #E3F6D8;
+}
+.page-item.active .page-link {
+	background-color: #7cd058;
+	border-color: #75bf56;
+}
+.badge-primary {
+	background-color: #75bf56;
+}
+.card-header {
+	background-color: #E3F6D8;
+}
+.card-footer {
+	background-color: #fff;
+}
+a, .page-link {
+	color: #75bf56;
+}
+a:hover {
+	color: #2f3338;
+}
+.btn-primary {
+	background-color: #75bf56;
+	border-color: #75bf56;
+}
+.btn-secondary {
+	background-color: #BBC6C3;
+	border-color: #BBC6C3;
+}
+.btn-primary:hover, .btn-secondary:hover {
+	background-color: #2f3338;
+	border-color: #2f3338;
+}
+.list-group-item:hover {
+	background-color: #E3F6D8;
+}
+footer.sticky-footer {
+	background-color: #E3F6D8;
+}
+/******* FIN CLASSES SB ADMIN ********/
+
+/******** CLASSES JQUERY UI *********/
+/*ul*/.ui-sortable {
+	list-style-position: inside;
+}
+/*li*/.ui-sortable-helper {
+	box-shadow: 0 0 10px #000000;
+}
+/*li*/.ui-sortable-placeholder {
+	color: #75bf56;
+	background-color: #75bf56;
+	padding: 12px 0 12px 0;
+}
+/****** FIN CLASSES JQUERY UI *******/
+
+/******** CLASSES CUSTOM *********/
+#logo {
+	display: none;
+}
+/*hr*/.menu-divider {
+	border-top: 1px solid rgba(0, 0, 0, 0.3) !important;
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	width: 80%;
+}
+/******** FIN CLASSES CUSTOM *********/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	/************** GÉNÉRAL **************/
+	* {
+		font-size: 1em;
+	}
+	/*********** FIN GÉNÉRAL *************/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#logo {
+		display: flex;
+	}
+	#logoSm {
+		display: none;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
