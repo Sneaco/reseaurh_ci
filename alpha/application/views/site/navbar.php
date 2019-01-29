@@ -1,8 +1,8 @@
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="secondNav">
 			<div class="container-fluid">
 				<a href="#masthead" class="navbar-brand js-scroll-trigger">
-					<img class="navbar-brand" src="<?= img_url('site/logo_nav.png'); ?>" alt="logo reseau rh plus">
+					<img class="navbar-brand" src="<?= img_url('site/logo_nav_mdv2.png'); ?>" alt="logo reseau rh plus">
 				</a>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars fa-2x"></i></button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -40,7 +40,7 @@
 							<button class="btn" id="btn_infolettre" data-toggle="modal" data-target="#loginModal" type="button">connexion</button>
 						</li>
 					</ul>
-				</div><!-- Fin NavbarResponsive -->
-			</div><!-- FIN CONTAINER -->
+				</div><!-- FIN NavbarResponsive -->
+			</div>
 		</nav><!-- FIN NAVBAR -->
 		

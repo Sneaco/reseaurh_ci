@@ -50,5 +50,9 @@ class Site_model extends CI_Model {
 	public function voirCustomPage($table){
 		return $this->db->get($table)->result();
 	}//
+/************************* Méthode pour chercher tout le contenu d'une row ******************************************************/  
+    public function get($table,$id){
+        return $this->db->get_where($table,array('id'=>$id))->result();
+    }//
 
 }

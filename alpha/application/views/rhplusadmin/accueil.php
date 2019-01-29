@@ -51,7 +51,7 @@
                   <?php foreach($info2 as $row): ?>
                     <tr>
                       <td><?= $row->nom; ?></td>
-                      <td><a class='ml-auto' href='http://reseaurhplus.com/beta/rhplusadmin/modifier/partenaire/<?= $row->id; ?>'><i class='fas fa-edit ml-auto mr-2'></i></a>|<a href='http://reseaurhplus.com/beta/rhplusadmin/supprimer/partnaire/<?= $row->id; ?>' onclick="return(confirm('Êtes-vous certain de vouloir supprimer ce partnaire ?'));"><i class='fas fa-trash-alt ml-2'></i></a></li></td>
+                      <td><a class='ml-auto' href='http://reseaurhplus.com/beta/rhplusadmin/modifier/partenaire/<?= $row->id; ?>'><i class='fas fa-edit ml-auto mr-2'></i></a>|<a href='http://reseaurhplus.com/beta/rhplusadmin/supprimer/partenaire/<?= $row->id; ?>' onclick="return(confirm('Êtes-vous certain de vouloir supprimer ce partenaire ?'));"><i class='fas fa-trash-alt ml-2'></i></a></li></td>
                     </tr>
                   <?php endforeach;?>
                   </tbody>

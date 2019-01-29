@@ -16,8 +16,8 @@ class Site extends CI_Controller {
 		
 		$data["menuPrincipaux"]=$this->site_model->menuPrincipaux();
 		$this->load->view ('site/head',$data);
-		$this->load->view ('site/navbar',$data);
-		
+		if($page!='accueil')
+			$this->load->view ('site/navbar',$data);
 		if(is_numeric($page)){
 			$data["result"]=$this->site_model->voirStandardPage($page);
 			$this->load->view('site/standardPage',$data);
@@ -34,12 +34,13 @@ class Site extends CI_Controller {
 	}//
 
 /**************** Méthode index *********************/
-	public function voir_activite ($id) {
+	public function form_activite ($id) {
 		
 		$data["menuPrincipaux"]=$this->site_model->menuPrincipaux();
+		$data["info"]=$this->site_model->get('activite',$id);
 		$this->load->view ('site/head',$data);
 		$this->load->view ('site/navbar',$data);
-		echo $id;
+		$this->load->view ('site/form_activite',$data);
 		$this->load->view ('site/foot');
 	}//
 

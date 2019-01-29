@@ -28,7 +28,7 @@
 				</div>
 				<div class="modal-body">Voulez-vous vraiment mettre fin à votre session?</div>
 				<div class="modal-footer">
-					<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+					<button class="btn btn-secondary" type="button" data-dismiss="modal">Annuler</button>
 					<a class="btn btn-primary" href="<?php echo base_url('rhplusadmin/logout'); ?>">Quitter</a>
 				</div>
 			</div>
