@@ -47,7 +47,10 @@
 		<!-- CONTENU -->
 
 		<!-- Head -->
-		<header id="masthead" class="masthead">
+		<header style="
+		background-image: url(http://localhost:8080/reseaurh_ci/asset/img/site/header.png);
+		-webkit-background-image: url(http://localhost:8080/reseaurh_ci/asset/img/site/header.png);
+		" id="masthead" class="masthead">
 			<div class="intro-body">
 				<div class="container">
 					<div class="col-12 d-sm-block d-md-none">

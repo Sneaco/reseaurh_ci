@@ -75,8 +75,6 @@ div#content{
     height: 100vh;
     padding: 200px 0;
     text-align: center;
-    background-image: url(http://reseaurhplus.com/beta/asset/img/site/header.png);
-    -webkit-background-image: url(http://reseaurhplus.com/beta/asset/img/site/header.png);
     -webkit-background-position: center center;
     -webkit-background-size: cover;
     overflow-x: visible;
